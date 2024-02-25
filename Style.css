@@ -1,0 +1,165 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+/* global */
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+
+}
+
+.button_1{
+    border: 5;
+    height: 36px;
+    background: rgb(255, 0, 0);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* border-radius: 10px; */
+}
+header{
+    background: rgb(47, 46, 46);
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: red solid 3px;
+    color: white;
+}
+
+header a{
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #branding{
+    float: left;
+}
+header #branding h1{
+    margin: 0;
+}
+header nav{
+    float: right;
+    margin-top: 10px ;
+}
+
+header .highlight, header .current a{
+    color: orange;
+    font-weight: bold ;
+}
+header a:hover{
+    color: blue;
+    font-weight: bold;
+}
+/* showcase */
+#showcase{
+    background: url(./IMAGE/images\ \(12\).png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: red;
+    min-height: 400px;
+}
+#showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+#showcase p{
+    font-size: 20px;
+}
+#newsletter{
+    background: rgb(47, 46, 46);
+    padding: 12px;
+    color: white;
+}
+#newsletter h3{
+    float: left;
+}
+#newsletter form{
+    float: right;
+    margin-top: 10px;
+    /* width: 180px; */
+}
+#newsletter input[type="email"]{
+    padding: 4px;
+    height: 24px;
+    width: 180px;
+}
+#boxes{
+  margin-top: 20px;
+}
+#boxes .box{
+    float: left;
+    text-align: center;
+    padding: 10px;
+    width: 30%;
+}
+#boxes .box img{
+    width: 90px;
+}
+
+
+
+.dark{
+    background: rgb(47, 46, 46);
+    padding: 15px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#sidebar{
+    float: right;
+    margin-top: 10px;
+    width: 30%;
+}
+#main{
+    min-height: 435px;
+}
+#main-col{
+    width: 65%;
+    float: left;
+}
+#services li{
+    border: 0mm 1px solid;
+}
+aside .quote input, aside .quote textarea{
+    width: 90%;
+    padding: 5px;
+}
+
+#services li{
+    padding: 20px;
+    border: #cccccc solid 1px;
+    margin-bottom: 5px;
+    background: whitesmoke;
+    
+}
+footer{
+    padding: 5px;
+    background: red;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+
+
+
+
+
+
